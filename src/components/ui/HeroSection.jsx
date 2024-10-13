@@ -8,7 +8,10 @@ const HeroSection = () => {
     >
       <div>
         <p className="text-slate-950 font-bold tracking-widest mt-4 text-2xl">
-          Welcome to Land Films
+          Welcome to{" "}
+          <span className="bg-gradient-to-r from-sky-800 via-sky-700 to-red-500 bg-clip-text text-transparent">
+            LAND FILMS
+          </span>
         </p>
         <h1 className="text-6xl font-bold bg-gradient-to-r from-sky-800 via-sky-700 to-red-500 bg-clip-text text-transparent mb-1">
           Find your next movie
