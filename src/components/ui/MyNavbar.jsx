@@ -8,11 +8,11 @@ import {
 const MyNavbar = () => {
   return (
     <>
-      <Navbar className="justify-items-center bg-sky-950">
+      <Navbar className="justify-items-center">
         <NavbarBrand>
           <a
             href=""
-            className="text-2xl font-bold tracking-wider bg-gradient-to-r from-sky-500 via-slate-50 to-sky-500 bg-clip-text text-transparent"
+            className="text-2xl font-bold tracking-wider bg-gradient-to-r from-slate-900 via-sky-700 to-red-500 bg-clip-text text-transparent"
           >
             LAND FILMS
           </a>
@@ -21,7 +21,7 @@ const MyNavbar = () => {
           <NavbarItem>
             <a
               href=""
-              className="text-lg font-bold tracking-wider bg-gradient-to-r from-slate-200 via-sky-500 to-slate-50 bg-clip-text text-transparent"
+              className="text-lg font-bold tracking-wider bg-gradient-to-r from-slate-900 via-sky-700 to-red-500 bg-clip-text text-transparent"
             >
               MOVIES
             </a>
@@ -29,7 +29,7 @@ const MyNavbar = () => {
           <NavbarItem>
             <a
               href=""
-              className="text-lg font-bold tracking-wider bg-gradient-to-r from-slate-200 via-sky-500 to-slate-50 bg-clip-text text-transparent"
+              className="text-lg font-bold tracking-wider bg-gradient-to-r from-slate-900 via-sky-700 to-red-500 bg-clip-text text-transparent"
             >
               TV
             </a>
