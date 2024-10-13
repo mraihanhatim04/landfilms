@@ -23,7 +23,7 @@ const MyNavbar = () => {
               href=""
               className="text-lg font-bold tracking-wider bg-gradient-to-r from-slate-900 via-sky-700 to-red-500 bg-clip-text text-transparent"
             >
-              MOVIES
+              In Theaters
             </a>
           </NavbarItem>
           <NavbarItem>
@@ -31,7 +31,7 @@ const MyNavbar = () => {
               href=""
               className="text-lg font-bold tracking-wider bg-gradient-to-r from-slate-900 via-sky-700 to-red-500 bg-clip-text text-transparent"
             >
-              TV
+              On TV
             </a>
           </NavbarItem>
         </NavbarContent>

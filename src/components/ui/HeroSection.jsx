@@ -1,8 +1,4 @@
-import { Input } from "@nextui-org/react";
-
 const HeroSection = () => {
-  const variant = ["underlined"];
-
   return (
     <div
       className="mx-auto flex flex-col h-screen justify-center items-center text-center p-10 bg-cover bg-center"
@@ -21,14 +17,6 @@ const HeroSection = () => {
           Find your next movie. Stream on your phone, tablet, laptop, and TV
           without paying more.
         </p>
-      </div>
-      <div className="w-96 mt-10 rounded-xl">
-        <Input
-          className="font-bold"
-          type="text"
-          variant={variant}
-          label="Search your favourite movie"
-        />
       </div>
     </div>
   );
