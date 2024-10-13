@@ -9,14 +9,13 @@ import {
 } from "@nextui-org/react";
 
 const CardMovie = () => {
-  const variant = ["underlined"];
   return (
     <>
       <div className="container mx-auto lg:px-24 justify-center items-center bg-white p-2 rounded-lg">
         <Input
           className="font-bold p-8"
           type="text"
-          variant={variant}
+          variant="underlined"
           label="Search your favourite movie"
         />
       </div>
