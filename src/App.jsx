@@ -1,7 +1,9 @@
+import MyNavbar from "./components/ui/MyNavbar";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">LandFilms</h1>
+      <MyNavbar />
     </>
   );
 }
