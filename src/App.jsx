@@ -1,13 +1,9 @@
-import CardMovie from "./components/ui/CardMovie";
-import HeroSection from "./components/ui/HeroSection";
-import MyNavbar from "./components/ui/MyNavbar";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <>
-      <MyNavbar />
-      <HeroSection />
-      <CardMovie />
+      <HomePage />
     </>
   );
 }
