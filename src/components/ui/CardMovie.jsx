@@ -41,7 +41,7 @@ const CardMovie = () => {
       <div className="container flex flex-wrap mx-auto justify-center gap-4 mt-2 mb-20">
         {filteredMovies.length > 0 ? (
           filteredMovies.map((movie, i) => (
-            <Card key={i} className="py-4 max-w-[300px]">
+            <Card key={i} className="py-4 max-w-[350px]">
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                 <h4 className="font-bold text-large">{movie.title}</h4>
                 <p className="text-tiny uppercase font-bold">
